@@ -1,0 +1,496 @@
+/* google front links - css started*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;500;600;700;900&display=swap');
+
+/* ---------------------google front links - css ended ----------------------*/
+
+body{
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+}
+
+/* =======common css part started ============ */
+/* ===================header part starts ======================= */
+.container{
+    width: 1321px;
+    height: 646px;
+    background-color:#140606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.header-parent{
+     
+    width: 531px;
+    height: 424px;
+    
+   
+}
+  
+.h-title  h1{ 
+        position: relative;
+        top: -50px;
+        width: 520px;
+        height: 250px;
+        font-size: 45px;
+}
+
+/* =============header animation starts-==================== */
+
+.h-title .animation1{
+
+        
+        text-align: left;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-align: center;
+        color:#0e3742;
+        width: 100%;
+        
+        -webkit-box-reflect: below 1px linear-gradient(transperent,#0004);
+        line-height: 0.5em;
+        outline: none;
+        animation: animate 10s linear  infinite ;
+
+    }
+    @keyframes animate{
+        0%,18%,20%,48%,68%,78%,90.1%,92%
+        {
+            color: #0e3742;
+        }
+        10%,12%, 20%,30%,40%, 50%,60% ,70%,100%
+        {
+            color: #ffff;
+            text-shadow: 0 0 10 px #03bcf4,
+             0 0 20 px #03bcf4
+             ,0 0 40 px #03bcf4
+             ,0 0 60 px #03bcf4,
+             0 0 80 px #03bcf4,
+             0 0 160 px #03bcf4;
+        }
+    
+
+    
+}
+/* =============header animation ends-==================== */
+
+.header-img img{
+    
+    width: 581px;
+    height: 613px;
+    
+   
+}
+.header-parent .h-title,.h-para,.btn-watch-live button{
+    color: #FFFFFF;
+}
+.btn-watch-live button{
+    padding: 16px 25px;
+    background-color: #DD0000;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+.fa-arrow-right-long{
+    position: relative;
+    left: 15px;
+}
+
+/* ===================header part ends ======================= */
+
+/*===================== main section css styles started here===================== */
+.main-section{
+    width: 1321px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.tab-view button{
+    background-color: #DD0000;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    left: 850px; 
+    visibility: hidden;
+}
+.match-options{
+    width: 312px;
+    height: 312px;
+    background-color:#161616;
+    border-radius: 5px;
+    border: 5px solid;
+    
+}
+.option button{
+    
+    color: #140606;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    
+}
+.option{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.option button{
+    margin-top: 45px;   
+ }
+ .option3{
+    background-color: #DD0000;
+ }
+ .option2{
+    padding: 15px ;
+ }
+
+ /* -------------grid box css style stats--------- */
+ .box{
+    width: 312px;
+    height: 362px;
+    border: 2px solid;
+    border-radius:5px ;
+ }
+ .time-status-update{
+    display: flex;
+    align-items: center;
+    justify-content:left
+    
+    
+ }
+ .post-time{
+    position: relative;
+    bottom: 5px;
+    
+
+ }
+ .comment{
+    position: relative;
+    bottom: 6px;
+    
+ }
+ 
+ .chat-icon{
+    margin-left: 20px;
+ }
+ .player-news{
+    margin-left: 20px;
+ }
+ .lavel{
+    position: relative;
+    top: 10px;
+    padding: 5px 25px;
+    border: 3px solid;
+    border-radius: 5px;
+ }
+
+ .grid-boxs{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 0px;
+    column-gap: 0 px;
+ }
+ .main-section{
+    width: 1321px;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ /* ===================grid box css style ends============================= */
+
+
+/* main section css styles ended here */
+
+/* ----------------------common css part ended------------------------------  */
+
+
+
+/* --------------footer css part started---------------- */
+footer{
+   width:1600;
+   height: 444px;
+   background-color: #161616;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.footer-info a, .footer-heading{   
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.footer-info a{
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    
+}
+#hr{
+    color:#FFFFFF;
+    
+    width:800px;
+
+}
+.footer-heading{
+    font-size: 60px;
+}
+.social-link{
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+
+}
+.fa-brands{
+    font-size: 40px;
+    margin-left: 25px;
+}
+/* ----------------------------footer css part ended --------------------------*/
+
+
+
+
+/* Media queary css for mobile started here */
+@media only screen and (max-width: 688px){
+
+  /*================ header css starts=============  */
+   
+  .h-title  h1{
+    font-size: 10px;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ position: relative;
+ right: 81px;
+}
+.header-parent{
+ width: 95%;
+}
+ 
+ 
+ .h-title h1{
+     text-align:left;
+     width: 300px;
+     height: 66px;
+    
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+ }
+ .h-title .animation1{
+    font-size: 30px;
+ }
+ .h-para p{
+     width: 90%;
+     position: relative;
+     left: 5px;
+     top: -27px;
+     font-size: 11px;
+     text-align: justify;
+     text-align: center;
+     
+ }
+ .h-para,.h-title h1{
+    position: relative;
+    top: 40%;
+ }
+ .header-img img{
+     position: relative;
+     top: -15px;
+     left: 20px;
+     width: 100%;
+     height: 245px;
+      
+ }
+ .btn-watch-live button{
+     position: relative;
+     top: -75px;
+     left:100px;
+     color:#FFFFFF;
+     padding: 10px 20px;
+ }
+  /* ==========================header css ends ============================== */
+
+
+
+    /*--------- main section css for mobile starts here  ------*/
+   
+    .main-section{
+
+        position: relative;
+        top: -50px;
+        right: 65px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-boxs{
+        grid-template-columns: repeat(1, 1fr); 
+        row-gap: 10px;
+    }
+    .match-options{
+        background-color: #FFFFFF;
+        border: none;
+    }
+ /* ---------main section css for mobile ends here -------------------------- */
+
+
+/* -------footer css style starts here---- */
+
+
+    footer{
+    width: 100%;
+    height: 650px;
+   }
+   .footer-info a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+   }
+   .social-link{
+    align-items: center;
+    position: relative;
+    top: 25px;
+   }
+    
+ }
+/* ------------------footer css style ends her----------e */
+
+
+
+/* -----------------------Media queary css for mobile ended here---------------- */
+
+
+/* Media queary css for tablet started here */
+@media only screen and (min-width: 689px) and (max-width: 992px){
+/* header part starts */
+/* header part starts */
+
+.container{
+    position: relative;
+    left: -12%;
+    width:100%
+   
+}
+.header-parent .btn-watch-live{
+    position: relative;
+    bottom: 20px;
+}
+.header-parent{
+    width: 50%;
+   }
+.h-para p{
+    position: relative;
+    top: -20px;
+    width: 120%;
+    height: 40%;
+    
+}   
+.h-title h1{
+    position: relative;
+    top: -100px;
+    width: 70%;
+    font-size: 2.7em;
+
+}
+.header-img img{
+    width: 120%;
+    height: 100%;
+}
+/*================== header part close =============*/
+
+
+/*================== main section part starts ===========*/
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+   
+}
+.match-options a{
+    text-decoration: none;
+    width: 61%;
+    
+   
+     
+    
+}
+.match-options{
+    width: 640px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF ;
+   
+} 
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* ===========grid box part started ====== */
+
+.grid-boxs{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0px;
+    gap: 0%;
+}
+
+/* ===========grid box part ended ====== */
+
+/* ===================main section part ends ============================*/
+
+/*======= view bottun part=========== */
+.tab-view .btn-watch-live{
+    position: relative;
+    left: 350px; 
+    background-color: #DD0000;
+    visibility: visible;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    
+  
+}
+/* ==============================view bottun part============ ========*/
+
+
+/* =========footer part starts=========== */
+footer{
+    width: 100%;
+    position: relative;
+    left: 1px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ 
+/*================== footer part close ========================*/
+
+
+}
+/* ------------------------- Media queary css for tablet ended here----------------- */
